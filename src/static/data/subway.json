@@ -1,0 +1,2228 @@
+[
+	{
+		"id": 1,
+		"name": "Changi Airport",
+		"type": "subway",
+		"coordinates": [
+			1.356139,
+			103.988546
+		],
+		"childPoints": [
+			{
+				"id": 2,
+				"distance": 4300,
+				"name": "Expo"
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 2,
+		"name": "Expo",
+		"type": "subway",
+		"coordinates": [
+			1.335417,
+			103.962121
+		],
+		"childPoints": [
+			{
+				"id": 1,
+				"distance": 4300,
+				"name": "Changi Airport"
+			},
+			{
+				"id": 3,
+				"distance": 1970,
+				"name": "Tanah Merah"
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 3,
+		"name": "Tanah Merah",
+		"type": "subway",
+		"coordinates": [
+			1.327491,
+			103.946714
+		],
+		"childPoints": [
+			{
+				"id": 2,
+				"distance": 1970,
+				"name": "Expo"
+			},
+			{
+				"id": 4,
+				"distance": 2130,
+				"name": "Simei"
+			},
+			{
+				"id": 7,
+				"distance": 1900,
+				"name": "Bedok"
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 4,
+		"name": "Simei",
+		"type": "subway",
+		"coordinates": [
+			1.342328,
+			103.953667
+		],
+		"childPoints": [
+			{
+				"id": 3,
+				"distance": 2130,
+				"name": "Tanah Merah"
+			},
+			{
+				"id": 5,
+				"distance": 1440,
+				"name": "Tampines"
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 5,
+		"name": "Tampines",
+		"type": "subway",
+		"coordinates": [
+			1.353299,
+			103.945427
+		],
+		"childPoints": [
+			{
+				"id": 4,
+				"distance": 1440,
+				"name": "Simei"
+			},
+			{
+				"id": 6,
+				"distance": 2280,
+				"name": "Pasir Ris"
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 6,
+		"name": "Pasir Ris",
+		"type": "subway",
+		"coordinates": [
+			1.372935,
+			103.949477
+		],
+		"childPoints": [
+			{
+				"id": 5,
+				"distance": 2280,
+				"name": "Tampines"
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 7,
+		"name": "Bedok",
+		"type": "subway",
+		"coordinates": [
+			1.324014,
+			103.929591
+		],
+		"childPoints": [
+			{
+				"id": 3,
+				"distance": 1900,
+				"name": "Tanah Merah"
+			},
+			{
+				"id": 8,
+				"distance": 1810,
+				"name": "Kembangan"
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 8,
+		"name": "Kembangan",
+		"type": "subway",
+		"coordinates": [
+			1.320818,
+			103.913112
+		],
+		"childPoints": [
+			{
+				"id": 7,
+				"distance": 1810,
+				"name": "Bedok"
+			},
+			{
+				"id": 9,
+				"distance": 1210,
+				"name": "Eunos"
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 9,
+		"name": "Eunos",
+		"type": "subway",
+		"coordinates": [
+			1.318702,
+			103.90234
+		],
+		"childPoints": [
+			{
+				"id": 8,
+				"distance": 1210,
+				"name": "Kembangan"
+			},
+			{
+				"id": 10,
+				"distance": 1120,
+				"name": "Paya Lebar"
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 10,
+		"name": "Paya Lebar",
+		"type": "subway",
+		"coordinates": [
+			1.318054,
+			103.892126
+		],
+		"childPoints": [
+			{
+				"id": 9,
+				"distance": 1120,
+				"name": "Eunos"
+			},
+			{
+				"id": 11,
+				"name": "Aljunied",
+				"distance": 1070,
+				"isConnectable": true
+			},
+			{
+				"id": 26,
+				"name": "Dakota",
+				"distance": 1390,
+				"isConnectable": true
+			},
+			{
+				"id": 27,
+				"name": "MacPherson",
+				"distance": 914,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 11,
+		"name": "Aljunied",
+		"type": "subway",
+		"coordinates": [
+			"1.31623",
+			"103.883"
+		],
+		"childPoints": [
+			{
+				"id": 10,
+				"name": "Paya Lebar",
+				"distance": 1070,
+				"isConnectable": true
+			},
+			{
+				"id": 12,
+				"name": "Kallang",
+				"distance": 1370,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 12,
+		"name": "Kallang",
+		"type": "subway",
+		"coordinates": [
+			"1.31126",
+			"103.872"
+		],
+		"childPoints": [
+			{
+				"id": 11,
+				"name": "Aljunied",
+				"distance": 1370,
+				"isConnectable": true
+			},
+			{
+				"id": 13,
+				"name": "Lavender",
+				"distance": 1050,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 13,
+		"name": "Lavender",
+		"type": "subway",
+		"coordinates": [
+			"1.30737",
+			"103.863"
+		],
+		"childPoints": [
+			{
+				"id": 12,
+				"name": "Kallang",
+				"distance": 1050,
+				"isConnectable": true
+			},
+			{
+				"id": 14,
+				"name": "Bugis",
+				"distance": 1100,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 14,
+		"name": "Bugis",
+		"type": "subway",
+		"coordinates": [
+			"1.30048",
+			"103.856"
+		],
+		"childPoints": [
+			{
+				"id": 13,
+				"name": "Lavender",
+				"distance": 1100,
+				"isConnectable": true
+			},
+			{
+				"id": 15,
+				"name": "City Hall",
+				"distance": 973,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 15,
+		"name": "City Hall",
+		"type": "subway",
+		"coordinates": [
+			"1.29278",
+			"103.852"
+		],
+		"childPoints": [
+			{
+				"id": 14,
+				"name": "Bugis",
+				"distance": 973,
+				"isConnectable": true
+			},
+			{
+				"id": 16,
+				"name": "Raffles Place",
+				"distance": 865,
+				"isConnectable": true
+			},
+			{
+				"id": 22,
+				"name": "Dhoby Ghaut",
+				"distance": 868,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 16,
+		"name": "Raffles Place",
+		"type": "subway",
+		"coordinates": [
+			"1.28462",
+			"103.851"
+		],
+		"childPoints": [
+			{
+				"id": 15,
+				"name": "City Hall",
+				"distance": 865,
+				"isConnectable": true
+			},
+			{
+				"id": 17,
+				"name": "Marina Bay",
+				"distance": 820,
+				"isConnectable": true
+			},
+			{
+				"id": 59,
+				"name": "Tanjong Pagar",
+				"distance": 989,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 17,
+		"name": "Marina Bay",
+		"type": "subway",
+		"coordinates": [
+			"1.27754",
+			"103.854"
+		],
+		"childPoints": [
+			{
+				"id": 16,
+				"name": "Raffles Place",
+				"distance": 820,
+				"isConnectable": true
+			},
+			{
+				"id": 18,
+				"name": "Bayfront",
+				"distance": 710,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 18,
+		"name": "Bayfront",
+		"type": "subway",
+		"coordinates": [
+			"1.28195",
+			"103.859"
+		],
+		"childPoints": [
+			{
+				"id": 17,
+				"name": "Marina Bay",
+				"distance": 710,
+				"isConnectable": true
+			},
+			{
+				"id": 19,
+				"name": "Promenade",
+				"distance": 1410,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 19,
+		"name": "Promenade",
+		"type": "subway",
+		"coordinates": [
+			"1.29393",
+			"103.860"
+		],
+		"childPoints": [
+			{
+				"id": 18,
+				"name": "Bayfront",
+				"distance": 1410,
+				"isConnectable": true
+			},
+			{
+				"id": 20,
+				"name": "Esplanade",
+				"distance": 852,
+				"isConnectable": true
+			},
+			{
+				"id": 23,
+				"name": "Nicoll Highway",
+				"distance": 819,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 20,
+		"name": "Esplanade",
+		"type": "subway",
+		"coordinates": [
+			"1.29367",
+			"103.855"
+		],
+		"childPoints": [
+			{
+				"id": 19,
+				"name": "Promenade",
+				"distance": 852,
+				"isConnectable": true
+			},
+			{
+				"id": 21,
+				"name": "Bras Basah",
+				"distance": 530,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 21,
+		"name": "Bras Basah",
+		"type": "subway",
+		"coordinates": [
+			"1.29669",
+			"103.851"
+		],
+		"childPoints": [
+			{
+				"id": 20,
+				"name": "Esplanade",
+				"distance": 530,
+				"isConnectable": true
+			},
+			{
+				"id": 22,
+				"name": "Dhoby Ghaut",
+				"distance": 534,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 22,
+		"name": "Dhoby Ghaut",
+		"type": "subway",
+		"coordinates": [
+			"1.29877",
+			"103.847"
+		],
+		"childPoints": [
+			{
+				"id": 21,
+				"name": "Bras Basah",
+				"distance": 534,
+				"isConnectable": true
+			},
+			{
+				"id": 48,
+				"name": "Clarke Quay",
+				"distance": 1280,
+				"isConnectable": true
+			},
+			{
+				"id": 49,
+				"name": "Little India",
+				"distance": 1060,
+				"isConnectable": true
+			},
+			{
+				"id": 90,
+				"name": "Somerset",
+				"distance": 893,
+				"isConnectable": true
+			},
+			{
+				"id": 15,
+				"name": "City Hall",
+				"distance": 868,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 23,
+		"name": "Nicoll Highway",
+		"type": "subway",
+		"coordinates": [
+			"1.29976",
+			"103.864"
+		],
+		"childPoints": [
+			{
+				"id": 19,
+				"name": "Promenade",
+				"distance": 819,
+				"isConnectable": true
+			},
+			{
+				"id": 24,
+				"name": "Stadium",
+				"distance": 1390,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 24,
+		"name": "Stadium",
+		"type": "subway",
+		"coordinates": [
+			"1.30215",
+			"103.875"
+		],
+		"childPoints": [
+			{
+				"id": 23,
+				"name": "Nicoll Highway",
+				"distance": 1390,
+				"isConnectable": true
+			},
+			{
+				"id": 25,
+				"name": "Mauntbatten",
+				"distance": 1020,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 25,
+		"name": "Mauntbatten",
+		"type": "subway",
+		"coordinates": [
+			"1.30651",
+			"103.883"
+		],
+		"childPoints": [
+			{
+				"id": 24,
+				"name": "Stadium",
+				"distance": 1020,
+				"isConnectable": true
+			},
+			{
+				"id": 26,
+				"name": "Dakota",
+				"distance": 1390,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 26,
+		"name": "Dakota",
+		"type": "subway",
+		"coordinates": [
+			"1.30818",
+			"103.888"
+		],
+		"childPoints": [
+			{
+				"id": 25,
+				"name": "Mauntbatten",
+				"distance": 605,
+				"isConnectable": true
+			},
+			{
+				"id": 10,
+				"name": "Paya Lebar",
+				"distance": 1390,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 27,
+		"name": "MacPherson",
+		"type": "subway",
+		"coordinates": [
+			"1.32594",
+			"103.890"
+		],
+		"childPoints": [
+			{
+				"id": 10,
+				"name": "Paya Lebar",
+				"distance": 914,
+				"isConnectable": true
+			},
+			{
+				"id": 28,
+				"name": "Tai Seng",
+				"distance": 1170,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 28,
+		"name": "Tai Seng",
+		"type": "subway",
+		"coordinates": [
+			"1.33622",
+			"103.888"
+		],
+		"childPoints": [
+			{
+				"id": 27,
+				"name": "MacPherson",
+				"distance": 1170,
+				"isConnectable": true
+			},
+			{
+				"id": 29,
+				"name": "Bartley",
+				"distance": 1070,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 29,
+		"name": "Bartley",
+		"type": "subway",
+		"coordinates": [
+			"1.34218",
+			"103.881"
+		],
+		"childPoints": [
+			{
+				"id": 28,
+				"name": "Tai Seng",
+				"distance": 1070,
+				"isConnectable": true
+			},
+			{
+				"id": 30,
+				"name": "Serangoon",
+				"distance": 1260,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 30,
+		"name": "Serangoon",
+		"type": "subway",
+		"coordinates": [
+			"1.35066",
+			"103.873"
+		],
+		"childPoints": [
+			{
+				"id": 29,
+				"name": "Bartley",
+				"distance": 1260,
+				"isConnectable": true
+			},
+			{
+				"id": 31,
+				"name": "Lorong Chuan",
+				"distance": 1050,
+				"isConnectable": true
+			},
+			{
+				"id": 53,
+				"name": "Woodleigh",
+				"distance": 828,
+				"isConnectable": true
+			},
+			{
+				"id": 54,
+				"name": "Kovan",
+				"distance": 1670,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 31,
+		"name": "Lorong Chuan",
+		"type": "subway",
+		"coordinates": [
+			"1.35143",
+			"103.863"
+		],
+		"childPoints": [
+			{
+				"id": 30,
+				"name": "Serangoon",
+				"distance": 1050,
+				"isConnectable": true
+			},
+			{
+				"id": 32,
+				"name": "Bishan",
+				"distance": 1660,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 32,
+		"name": "Bishan",
+		"type": "subway",
+		"coordinates": [
+			"1.35100",
+			"103.848"
+		],
+		"childPoints": [
+			{
+				"id": 31,
+				"name": "Lorong Chuan",
+				"distance": 1660,
+				"isConnectable": true
+			},
+			{
+				"id": 33,
+				"name": "Marymount",
+				"distance": 1110,
+				"isConnectable": true
+			},
+			{
+				"id": 84,
+				"name": "Ang Mo Kio",
+				"distance": 2240,
+				"isConnectable": true
+			},
+			{
+				"id": 85,
+				"name": "Braddell",
+				"distance": 1130,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 33,
+		"name": "Marymount",
+		"type": "subway",
+		"coordinates": [
+			"1.34970",
+			"103.839"
+		],
+		"childPoints": [
+			{
+				"id": 32,
+				"name": "Bishan",
+				"distance": 1110,
+				"isConnectable": true
+			},
+			{
+				"id": 34,
+				"name": "Caldecott",
+				"distance": 1290,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 34,
+		"name": "Caldecott",
+		"type": "subway",
+		"coordinates": [
+			"1.33768",
+			"103.840"
+		],
+		"childPoints": [
+			{
+				"id": 33,
+				"name": "Marymount",
+				"distance": 1290,
+				"isConnectable": true
+			},
+			{
+				"id": 35,
+				"name": "Botanic Gardens",
+				"distance": 3500,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 35,
+		"name": "Botanic Gardens",
+		"type": "subway",
+		"coordinates": [
+			"1.32273",
+			"103.815"
+		],
+		"childPoints": [
+			{
+				"id": 34,
+				"name": "Caldecott",
+				"distance": 3500,
+				"isConnectable": true
+			},
+			{
+				"id": 36,
+				"name": "Farrer Road",
+				"distance": 1090,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 36,
+		"name": "Farrer Road",
+		"type": "subway",
+		"coordinates": [
+			"1.31728",
+			"103.807"
+		],
+		"childPoints": [
+			{
+				"id": 35,
+				"name": "Botanic Gardens",
+				"distance": 1090,
+				"isConnectable": true
+			},
+			{
+				"id": 37,
+				"name": "Holland Vilage",
+				"distance": 1400,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 37,
+		"name": "Holland Vilage",
+		"type": "subway",
+		"coordinates": [
+			"1.31088",
+			"103.796"
+		],
+		"childPoints": [
+			{
+				"id": 36,
+				"name": "Farrer Road",
+				"distance": 1400,
+				"isConnectable": true
+			},
+			{
+				"id": 38,
+				"name": "Buona Vista",
+				"distance": 756,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 38,
+		"name": "Buona Vista",
+		"type": "subway",
+		"coordinates": [
+			"1.30630",
+			"103.790"
+		],
+		"childPoints": [
+			{
+				"id": 37,
+				"name": "Holland Vilage",
+				"distance": 756,
+				"isConnectable": true
+			},
+			{
+				"id": 39,
+				"name": "One-North",
+				"distance": 895,
+				"isConnectable": true
+			},
+			{
+				"id": 63,
+				"name": "Commonwealth",
+				"distance": 1020,
+				"isConnectable": true
+			},
+			{
+				"id": 64,
+				"name": "Dover",
+				"distance": 1490,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 39,
+		"name": "One-North",
+		"type": "subway",
+		"coordinates": [
+			"1.29881",
+			"103.787"
+		],
+		"childPoints": [
+			{
+				"id": 38,
+				"name": "Buona Vista",
+				"distance": 895,
+				"isConnectable": true
+			},
+			{
+				"id": 40,
+				"name": "Kent Ridge",
+				"distance": 606,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 40,
+		"name": "Kent Ridge",
+		"type": "subway",
+		"coordinates": [
+			"1.29420",
+			"103.784"
+		],
+		"childPoints": [
+			{
+				"id": 39,
+				"name": "One-North",
+				"distance": 606,
+				"isConnectable": true
+			},
+			{
+				"id": 41,
+				"name": "Haw Par Villa",
+				"distance": 1330,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 41,
+		"name": "Haw Par Villa",
+		"type": "subway",
+		"coordinates": [
+			"1.28292",
+			"103.782"
+		],
+		"childPoints": [
+			{
+				"id": 40,
+				"name": "Kent Ridge",
+				"distance": 1330,
+				"isConnectable": true
+			},
+			{
+				"id": 42,
+				"name": "Pasir Panjang",
+				"distance": 1330,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 42,
+		"name": "Pasir Panjang",
+		"type": "subway",
+		"coordinates": [
+			"1.27601",
+			"103.792"
+		],
+		"childPoints": [
+			{
+				"id": 41,
+				"name": "Haw Par Villa",
+				"distance": 1330,
+				"isConnectable": true
+			},
+			{
+				"id": 43,
+				"name": "Labrador Park",
+				"distance": 1190,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 43,
+		"name": "Labrador Park",
+		"type": "subway",
+		"coordinates": [
+			"1.27212",
+			"103.802"
+		],
+		"childPoints": [
+			{
+				"id": 42,
+				"name": "Pasir Panjang",
+				"distance": 1190,
+				"isConnectable": true
+			},
+			{
+				"id": 44,
+				"name": "Telok Blangah",
+				"distance": 834,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 44,
+		"name": "Telok Blangah",
+		"type": "subway",
+		"coordinates": [
+			"1.27070",
+			"103.810"
+		],
+		"childPoints": [
+			{
+				"id": 43,
+				"name": "Labrador Park",
+				"distance": 834,
+				"isConnectable": true
+			},
+			{
+				"id": 45,
+				"name": "HarbourFront",
+				"distance": 1550,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 45,
+		"name": "HarbourFront",
+		"type": "subway",
+		"coordinates": [
+			"1.26556",
+			"103.823"
+		],
+		"childPoints": [
+			{
+				"id": 44,
+				"name": "Telok Blangah",
+				"distance": 1550,
+				"isConnectable": true
+			},
+			{
+				"id": 46,
+				"name": "Outram Park",
+				"distance": 2530,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 46,
+		"name": "Outram Park",
+		"type": "subway",
+		"coordinates": [
+			"1.28108",
+			"103.839"
+		],
+		"childPoints": [
+			{
+				"id": 45,
+				"name": "HarbourFront",
+				"distance": 2530,
+				"isConnectable": true
+			},
+			{
+				"id": 47,
+				"name": "Chinatown",
+				"distance": 758,
+				"isConnectable": true
+			},
+			{
+				"id": 59,
+				"name": "Tanjong Pagar",
+				"distance": 989,
+				"isConnectable": true
+			},
+			{
+				"id": 60,
+				"name": "Tiong Bahru",
+				"distance": 1460,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 47,
+		"name": "Chinatown",
+		"type": "subway",
+		"coordinates": [
+			"1.28483",
+			"103.844"
+		],
+		"childPoints": [
+			{
+				"id": 46,
+				"name": "Outram Park",
+				"distance": 758,
+				"isConnectable": true
+			},
+			{
+				"id": 48,
+				"name": "Clarke Quay",
+				"distance": 1280,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 48,
+		"name": "Clarke Quay",
+		"type": "subway",
+		"coordinates": [
+			"1.28894",
+			"103.847"
+		],
+		"childPoints": [
+			{
+				"id": 47,
+				"name": "Chinatown",
+				"distance": 545,
+				"isConnectable": true
+			},
+			{
+				"id": 22,
+				"name": "Dhoby Ghaut",
+				"distance": 1280,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 49,
+		"name": "Little India",
+		"type": "subway",
+		"coordinates": [
+			"1.30639",
+			"103.849"
+		],
+		"childPoints": [
+			{
+				"id": 22,
+				"name": "Dhoby Ghaut",
+				"distance": 1060,
+				"isConnectable": true
+			},
+			{
+				"id": 50,
+				"name": "Farrer Park",
+				"distance": 866,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 50,
+		"name": "Farrer Park",
+		"type": "subway",
+		"coordinates": [
+			"1.31285",
+			"103.854"
+		],
+		"childPoints": [
+			{
+				"id": 49,
+				"name": "Little India",
+				"distance": 866,
+				"isConnectable": true
+			},
+			{
+				"id": 51,
+				"name": "Boon Keng",
+				"distance": 1240,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 51,
+		"name": "Boon Keng",
+		"type": "subway",
+		"coordinates": [
+			"1.32017",
+			"103.862"
+		],
+		"childPoints": [
+			{
+				"id": 50,
+				"name": "Farrer Park",
+				"distance": 1240,
+				"isConnectable": true
+			},
+			{
+				"id": 52,
+				"name": "Potong Pasir",
+				"distance": 1480,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 52,
+		"name": "Potong Pasir",
+		"type": "subway",
+		"coordinates": [
+			"1.33144",
+			"103.869"
+		],
+		"childPoints": [
+			{
+				"id": 51,
+				"name": "Boon Keng",
+				"distance": 1480,
+				"isConnectable": true
+			},
+			{
+				"id": 53,
+				"name": "Woodleigh",
+				"distance": 828,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 53,
+		"name": "Woodleigh",
+		"type": "subway",
+		"coordinates": [
+			"1.33878",
+			"103.871"
+		],
+		"childPoints": [
+			{
+				"id": 52,
+				"name": "Potong Pasir",
+				"distance": 828,
+				"isConnectable": true
+			},
+			{
+				"id": 30,
+				"name": "Serangoon",
+				"distance": 828,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 54,
+		"name": "Kovan",
+		"type": "subway",
+		"coordinates": [
+			"1.36016",
+			"103.885"
+		],
+		"childPoints": [
+			{
+				"id": 30,
+				"name": "Serangoon",
+				"distance": 1670,
+				"isConnectable": true
+			},
+			{
+				"id": 55,
+				"name": "Hougang",
+				"distance": 1480,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 55,
+		"name": "Hougang",
+		"type": "subway",
+		"coordinates": [
+			"1.37125",
+			"103.892"
+		],
+		"childPoints": [
+			{
+				"id": 54,
+				"name": "Kovan",
+				"distance": 1480,
+				"isConnectable": true
+			},
+			{
+				"id": 56,
+				"name": "Buangkok",
+				"distance": 1320,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 56,
+		"name": "Buangkok",
+		"type": "subway",
+		"coordinates": [
+			"1.38330",
+			"103.893"
+		],
+		"childPoints": [
+			{
+				"id": 55,
+				"name": "Hougang",
+				"distance": 1320,
+				"isConnectable": true
+			},
+			{
+				"id": 57,
+				"name": "Sengkang",
+				"distance": 1030,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 57,
+		"name": "Sengkang",
+		"type": "subway",
+		"coordinates": [
+			"1.39241",
+			"103.896"
+		],
+		"childPoints": [
+			{
+				"id": 56,
+				"name": "Buangkok",
+				"distance": 1030,
+				"isConnectable": true
+			},
+			{
+				"id": 58,
+				"name": "Punggol",
+				"distance": 1540,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 58,
+		"name": "Punggol",
+		"type": "subway",
+		"coordinates": [
+			"1.40511",
+			"103.902"
+		],
+		"childPoints": [
+			{
+				"id": 57,
+				"name": "Sengkang",
+				"distance": 1540,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 59,
+		"name": "Tanjong Pagar",
+		"type": "subway",
+		"coordinates": [
+			"1.27693",
+			"103.847"
+		],
+		"childPoints": [
+			{
+				"id": 16,
+				"name": "Raffles Place",
+				"distance": 983,
+				"isConnectable": true
+			},
+			{
+				"id": 46,
+				"name": "Outram Park",
+				"distance": 989,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 60,
+		"name": "Tiong Bahru",
+		"type": "subway",
+		"coordinates": [
+			"1.28549",
+			"103.827"
+		],
+		"childPoints": [
+			{
+				"id": 46,
+				"name": "Outram Park",
+				"distance": 1460,
+				"isConnectable": true
+			},
+			{
+				"id": 61,
+				"name": "Redhill",
+				"distance": 1190,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 61,
+		"name": "Redhill",
+		"type": "subway",
+		"coordinates": [
+			"1.28930",
+			"103.817"
+		],
+		"childPoints": [
+			{
+				"id": 60,
+				"name": "Tiong Bahru",
+				"distance": 1190,
+				"isConnectable": true
+			},
+			{
+				"id": 62,
+				"name": "Queenston",
+				"distance": 1330,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 62,
+		"name": "Queenston",
+		"type": "subway",
+		"coordinates": [
+			"1.29449",
+			"103.806"
+		],
+		"childPoints": [
+			{
+				"id": 61,
+				"name": "Redhill",
+				"distance": 1330,
+				"isConnectable": true
+			},
+			{
+				"id": 63,
+				"name": "Commonwealth",
+				"distance": 1020,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 63,
+		"name": "Commonwealth",
+		"type": "subway",
+		"coordinates": [
+			"1.30287",
+			"103.798"
+		],
+		"childPoints": [
+			{
+				"id": 62,
+				"name": "Queenston",
+				"distance": 1280,
+				"isConnectable": true
+			},
+			{
+				"id": 38,
+				"name": "Buona Vista",
+				"distance": 1020,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 64,
+		"name": "Dover",
+		"type": "subway",
+		"coordinates": [
+			"1.31172",
+			"103.778"
+		],
+		"childPoints": [
+			{
+				"id": 38,
+				"name": "Buona Vista",
+				"distance": 1490,
+				"isConnectable": true
+			},
+			{
+				"id": 65,
+				"name": "Clementi",
+				"distance": 1600,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 65,
+		"name": "Clementi",
+		"type": "subway",
+		"coordinates": [
+			"1.31525",
+			"103.765"
+		],
+		"childPoints": [
+			{
+				"id": 64,
+				"name": "Dover",
+				"distance": 1600,
+				"isConnectable": true
+			},
+			{
+				"id": 66,
+				"name": "Jurong East",
+				"distance": 3250,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 66,
+		"name": "Jurong East",
+		"type": "subway",
+		"coordinates": [
+			"1.33213",
+			"103.743"
+		],
+		"childPoints": [
+			{
+				"id": 65,
+				"name": "Clementi",
+				"distance": 3250,
+				"isConnectable": true
+			},
+			{
+				"id": 67,
+				"name": "Chinese Garden",
+				"distance": 1500,
+				"isConnectable": true
+			},
+			{
+				"id": 72,
+				"name": "Bukit Batok",
+				"distance": 2400,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 67,
+		"name": "Chinese Garden",
+		"type": "subway",
+		"coordinates": [
+			"1.34215",
+			"103.733"
+		],
+		"childPoints": [
+			{
+				"id": 66,
+				"name": "Jurong East",
+				"distance": 1500,
+				"isConnectable": true
+			},
+			{
+				"id": 68,
+				"name": "Lakeside",
+				"distance": 1400,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 68,
+		"name": "Lakeside",
+		"type": "subway",
+		"coordinates": [
+			"1.34437",
+			"103.720"
+		],
+		"childPoints": [
+			{
+				"id": 67,
+				"name": "Chinese Garden",
+				"distance": 1400,
+				"isConnectable": true
+			},
+			{
+				"id": 69,
+				"name": "Boon Lay",
+				"distance": 1560,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 69,
+		"name": "Boon Lay",
+		"type": "subway",
+		"coordinates": [
+			"1.33866",
+			"103.707"
+		],
+		"childPoints": [
+			{
+				"id": 68,
+				"name": "Lakeside",
+				"distance": 1560,
+				"isConnectable": true
+			},
+			{
+				"id": 70,
+				"name": "Pioneer",
+				"distance": 1080,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 70,
+		"name": "Pioneer",
+		"type": "subway",
+		"coordinates": [
+			"1.33771",
+			"103.697"
+		],
+		"childPoints": [
+			{
+				"id": 69,
+				"name": "Boon Lay",
+				"distance": 1080,
+				"isConnectable": true
+			},
+			{
+				"id": 71,
+				"name": "Joo Koon",
+				"distance": 2650,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 71,
+		"name": "Joo Koon",
+		"type": "subway",
+		"coordinates": [
+			"1.32782",
+			"103.678"
+		],
+		"childPoints": [
+			{
+				"id": 70,
+				"name": "Pioneer",
+				"distance": 2650,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 72,
+		"name": "Bukit Batok",
+		"type": "subway",
+		"coordinates": [
+			"1.34952",
+			"103.750"
+		],
+		"childPoints": [
+			{
+				"id": 66,
+				"name": "Jurong East",
+				"distance": 2400,
+				"isConnectable": true
+			},
+			{
+				"id": 73,
+				"name": "Bukit Gombak",
+				"distance": 1100,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 73,
+		"name": "Bukit Gombak",
+		"type": "subway",
+		"coordinates": [
+			"1.35932",
+			"103.752"
+		],
+		"childPoints": [
+			{
+				"id": 72,
+				"name": "Bukit Batok",
+				"distance": 1100,
+				"isConnectable": true
+			},
+			{
+				"id": 74,
+				"name": "Choa Chu Kang",
+				"distance": 3080,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 74,
+		"name": "Choa Chu Kang",
+		"type": "subway",
+		"coordinates": [
+			"1.38453",
+			"103.745"
+		],
+		"childPoints": [
+			{
+				"id": 73,
+				"name": "Bukit Gombak",
+				"distance": 3080,
+				"isConnectable": true
+			},
+			{
+				"id": 75,
+				"name": "Yew Tee",
+				"distance": 1500,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 75,
+		"name": "Yew Tee",
+		"type": "subway",
+		"coordinates": [
+			"1.39770",
+			"103.747"
+		],
+		"childPoints": [
+			{
+				"id": 74,
+				"name": "Choa Chu Kang",
+				"distance": 1500,
+				"isConnectable": true
+			},
+			{
+				"id": 76,
+				"name": "Kranji",
+				"distance": 4060,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 76,
+		"name": "Kranji",
+		"type": "subway",
+		"coordinates": [
+			"1.42544",
+			"103.762"
+		],
+		"childPoints": [
+			{
+				"id": 75,
+				"name": "Yew Tee",
+				"distance": 4060,
+				"isConnectable": true
+			},
+			{
+				"id": 77,
+				"name": "Marsiling",
+				"distance": 1540,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 77,
+		"name": "Marsiling",
+		"type": "subway",
+		"coordinates": [
+			"1.43222",
+			"103.774"
+		],
+		"childPoints": [
+			{
+				"id": 76,
+				"name": "Kranji",
+				"distance": 1540,
+				"isConnectable": true
+			},
+			{
+				"id": 78,
+				"name": "Woodlands",
+				"distance": 1560,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 78,
+		"name": "Woodlands",
+		"type": "subway",
+		"coordinates": [
+			"1.43702",
+			"103.787"
+		],
+		"childPoints": [
+			{
+				"id": 77,
+				"name": "Marsiling",
+				"distance": 1560,
+				"isConnectable": true
+			},
+			{
+				"id": 79,
+				"name": "Admirality",
+				"distance": 1540,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 79,
+		"name": "Admirality",
+		"type": "subway",
+		"coordinates": [
+			"1.44095",
+			"103.801"
+		],
+		"childPoints": [
+			{
+				"id": 78,
+				"name": "Woodlands",
+				"distance": 1540,
+				"isConnectable": true
+			},
+			{
+				"id": 80,
+				"name": "Sembawang",
+				"distance": 2340,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 80,
+		"name": "Sembawang",
+		"type": "subway",
+		"coordinates": [
+			"1.44873",
+			"103.820"
+		],
+		"childPoints": [
+			{
+				"id": 79,
+				"name": "Admirality",
+				"distance": 2340,
+				"isConnectable": true
+			},
+			{
+				"id": 81,
+				"name": "Yishun",
+				"distance": 3040,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 81,
+		"name": "Yishun",
+		"type": "subway",
+		"coordinates": [
+			"1.42819",
+			"103.835"
+		],
+		"childPoints": [
+			{
+				"id": 80,
+				"name": "Sembawang",
+				"distance": 3040,
+				"isConnectable": true
+			},
+			{
+				"id": 82,
+				"name": "Khatib",
+				"distance": 1200,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 82,
+		"name": "Khatib",
+		"type": "subway",
+		"coordinates": [
+			"1.41757",
+			"103.833"
+		],
+		"childPoints": [
+			{
+				"id": 81,
+				"name": "Yishun",
+				"distance": 1200,
+				"isConnectable": true
+			},
+			{
+				"id": 83,
+				"name": "Yio Chu Kang",
+				"distance": 4870,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 83,
+		"name": "Yio Chu Kang",
+		"type": "subway",
+		"coordinates": [
+			"1.38167",
+			"103.845"
+		],
+		"childPoints": [
+			{
+				"id": 82,
+				"name": "Khatib",
+				"distance": 4870,
+				"isConnectable": true
+			},
+			{
+				"id": 84,
+				"name": "Ang Mo Kio",
+				"distance": 2240,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 84,
+		"name": "Ang Mo Kio",
+		"type": "subway",
+		"coordinates": [
+			"1.36951",
+			"103.850"
+		],
+		"childPoints": [
+			{
+				"id": 83,
+				"name": "Yio Chu Kang",
+				"distance": 1440,
+				"isConnectable": true
+			},
+			{
+				"id": 32,
+				"name": "Bishan",
+				"distance": 2240,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 85,
+		"name": "Braddell",
+		"type": "subway",
+		"coordinates": [
+			"1.34081",
+			"103.846"
+		],
+		"childPoints": [
+			{
+				"id": 32,
+				"name": "Bishan",
+				"distance": 1130,
+				"isConnectable": true
+			},
+			{
+				"id": 86,
+				"name": "Toa Payoh",
+				"distance": 850,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 86,
+		"name": "Toa Payoh",
+		"type": "subway",
+		"coordinates": [
+			"1.33313",
+			"103.848"
+		],
+		"childPoints": [
+			{
+				"id": 85,
+				"name": "Braddell",
+				"distance": 850,
+				"isConnectable": true
+			},
+			{
+				"id": 87,
+				"name": "Novena",
+				"distance": 1570,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 87,
+		"name": "Novena",
+		"type": "subway",
+		"coordinates": [
+			"1.31988",
+			"103.843"
+		],
+		"childPoints": [
+			{
+				"id": 86,
+				"name": "Toa Payoh",
+				"distance": 1570,
+				"isConnectable": true
+			},
+			{
+				"id": 88,
+				"name": "Newton",
+				"distance": 940,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 88,
+		"name": "Newton",
+		"type": "subway",
+		"coordinates": [
+			"1.31224",
+			"103.838"
+		],
+		"childPoints": [
+			{
+				"id": 87,
+				"name": "Novena",
+				"distance": 940,
+				"isConnectable": true
+			},
+			{
+				"id": 89,
+				"name": "Orchard",
+				"distance": 1090,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 89,
+		"name": "Orchard",
+		"type": "subway",
+		"coordinates": [
+			"1.30486",
+			"103.832"
+		],
+		"childPoints": [
+			{
+				"id": 88,
+				"name": "Newton",
+				"distance": 1090,
+				"isConnectable": true
+			},
+			{
+				"id": 90,
+				"name": "Somerset",
+				"distance": 893,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 90,
+		"name": "Somerset",
+		"type": "subway",
+		"coordinates": [
+			"1.30033",
+			"103.839"
+		],
+		"childPoints": [
+			{
+				"id": 89,
+				"name": "Orchard",
+				"distance": 1000,
+				"isConnectable": true
+			},
+			{
+				"id": 22,
+				"name": "Dhoby Ghaut",
+				"distance": 893,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	}
+]

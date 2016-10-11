@@ -1,0 +1,25 @@
+<transport (selected)="onTransportChange($event)"></transport>
+
+<p *ngIf="coordinates.length === 0" class="add-point-title">Please click on the map</p>
+
+<div *ngIf="coordinates.length" class="add-point-wrapper">
+	<p>New point data:</p>
+	<p>Point coordinates: <b>[{{coordinates}}]</b></p>
+	<p>Point title: <b>{{pointName}}</b></p>
+	<p>Point connections:</p>
+
+	<p *ngFor="let child of childPoints"><b>{{child.name}} distance - {{child.distance}}</b></p>
+
+	<input [(ngModel)]="pointName" type="text" id="point-name" placeholder="Point title">
+	<label>Choose child point data:</label>
+	<select [(ngModel)]="childPoint" id="add-child-point">
+		<option *ngFor="let point of points" [ngValue]="point.id">{{point.name}}</option>
+	</select>
+	<input [(ngModel)]="pointDistance" type="text" id="point-distance" placeholder="Distance to child Point">
+	<label>Should child be connected with this point?</label>
+	<input [(ngModel)]="isConnectable" type="checkbox">
+
+	<button type="button" (click)="onAddConnection()" class="add-connection btn">Add connection</button>
+	<button type="button" (click)="onAddPoint()" class="add-point btn">Add Point</button>
+</div>
+

@@ -1,0 +1,500 @@
+[
+	{
+		"id": 1,
+		"name": "Changi Coast Rd 1",
+		"type": "car",
+		"coordinates": [
+			1.373049,
+			104.004667
+		],
+		"childPoints": [
+			{
+				"id": 2,
+				"distance": 362,
+				"name": "Expo"
+			},
+			{
+				"id": 21,
+				"name": "Changi Coast Rd 6",
+				"distance": 825,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 2,
+		"name": "Changi Coast Rd 2",
+		"type": "car",
+		"coordinates": [
+			1.369757,
+			104.004484
+		],
+		"childPoints": [
+			{
+				"id": 1,
+				"distance": 362,
+				"name": "Changi Coast Rd 1"
+			},
+			{
+				"id": 3,
+				"distance": 3990,
+				"name": "Changi Coast Rd 3"
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 3,
+		"name": "Changi Coast Rd 3",
+		"type": "car",
+		"coordinates": [
+			1.321665,
+			103.984876
+		],
+		"childPoints": [
+			{
+				"id": 2,
+				"distance": 3990,
+				"name": "Changi Coast Rd 2"
+			},
+			{
+				"id": 4,
+				"distance": 451,
+				"name": "Changi Coast Rd 4"
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 4,
+		"name": "Changi Coast Rd 4",
+		"type": "car",
+		"coordinates": [
+			1.32048,
+			103.981764
+		],
+		"childPoints": [
+			{
+				"id": 3,
+				"distance": 451,
+				"name": "Changi Coast Rd 3"
+			},
+			{
+				"id": 5,
+				"name": "Changi Coast Rd 5",
+				"distance": 887,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 5,
+		"name": "Changi Coast Rd 5",
+		"type": "car",
+		"coordinates": [
+			"1.32612",
+			"103.981"
+		],
+		"childPoints": [
+			{
+				"id": 4,
+				"name": "Changi Coast Rd 4",
+				"distance": 887,
+				"isConnectable": true
+			},
+			{
+				"id": 6,
+				"name": "East Coast Pkwy",
+				"distance": 952,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 6,
+		"name": "East Coast Pkwy",
+		"type": "car",
+		"coordinates": [
+			"1.32498",
+			"103.972"
+		],
+		"childPoints": [
+			{
+				"id": 5,
+				"name": "Changi Coast Rd 5",
+				"distance": 952,
+				"isConnectable": true
+			},
+			{
+				"id": 7,
+				"name": "East Coast Pkwy 2",
+				"distance": 1600,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 7,
+		"name": "East Coast Pkwy 2",
+		"type": "car",
+		"coordinates": [
+			"1.33704",
+			"103.980"
+		],
+		"childPoints": [
+			{
+				"id": 6,
+				"name": "East Coast Pkwy",
+				"distance": 1600,
+				"isConnectable": true
+			},
+			{
+				"id": 8,
+				"name": "Pan Island Expy",
+				"distance": 995,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 8,
+		"name": "Pan Island Expy",
+		"type": "car",
+		"coordinates": [
+			"1.34046",
+			"103.972"
+		],
+		"childPoints": [
+			{
+				"id": 7,
+				"name": "East Coast Pkwy 2",
+				"distance": 995,
+				"isConnectable": true
+			},
+			{
+				"id": 9,
+				"name": "Upp Changi Flyover",
+				"distance": 1350,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 9,
+		"name": "Upp Changi Flyover",
+		"type": "car",
+		"coordinates": [
+			"1.35016",
+			"103.964"
+		],
+		"childPoints": [
+			{
+				"id": 8,
+				"name": "Pan Island Expy",
+				"distance": 1350,
+				"isConnectable": true
+			},
+			{
+				"id": 10,
+				"name": "Upp Changi Flyover 2",
+				"distance": 300,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 10,
+		"name": "Upp Changi Flyover 2",
+		"type": "car",
+		"coordinates": [
+			"1.35270",
+			"103.964"
+		],
+		"childPoints": [
+			{
+				"id": 9,
+				"name": "Upp Changi Flyover",
+				"distance": 300,
+				"isConnectable": true
+			},
+			{
+				"id": 11,
+				"name": "Upp Changi Rd 1",
+				"distance": 491,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 11,
+		"name": "Upp Changi Rd 1",
+		"type": "car",
+		"coordinates": [
+			"1.35430",
+			"103.968"
+		],
+		"childPoints": [
+			{
+				"id": 10,
+				"name": "Upp Changi Flyover 2",
+				"distance": 491,
+				"isConnectable": true
+			},
+			{
+				"id": 12,
+				"name": "Upp Changi Rd 2",
+				"distance": 889,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 12,
+		"name": "Upp Changi Rd 2",
+		"type": "car",
+		"coordinates": [
+			"1.36175",
+			"103.972"
+		],
+		"childPoints": [
+			{
+				"id": 11,
+				"name": "Upp Changi Rd 1",
+				"distance": 889,
+				"isConnectable": true
+			},
+			{
+				"id": 13,
+				"name": "Upp Changi Rd 3",
+				"distance": 722,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 13,
+		"name": "Upp Changi Rd 3",
+		"type": "car",
+		"coordinates": [
+			"1.36673",
+			"103.976"
+		],
+		"childPoints": [
+			{
+				"id": 12,
+				"name": "Upp Changi Rd 2",
+				"distance": 722,
+				"isConnectable": true
+			},
+			{
+				"id": 14,
+				"name": "Upp Changi Rd 4",
+				"distance": 724,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 14,
+		"name": "Upp Changi Rd 4",
+		"type": "car",
+		"coordinates": [
+			"1.37170",
+			"103.980"
+		],
+		"childPoints": [
+			{
+				"id": 13,
+				"name": "Upp Changi Rd 3",
+				"distance": 724,
+				"isConnectable": true
+			},
+			{
+				"id": 15,
+				"name": "Loyang Ave 1",
+				"distance": 561,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 15,
+		"name": "Loyang Ave 1",
+		"type": "car",
+		"coordinates": [
+			"1.37390",
+			"103.975"
+		],
+		"childPoints": [
+			{
+				"id": 14,
+				"name": "Upp Changi Rd 4",
+				"distance": 561,
+				"isConnectable": true
+			},
+			{
+				"id": 16,
+				"name": "Loyang Ave 2",
+				"distance": 582,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 16,
+		"name": "Loyang Ave 2",
+		"type": "car",
+		"coordinates": [
+			"1.37787",
+			"103.978"
+		],
+		"childPoints": [
+			{
+				"id": 15,
+				"name": "Loyang Ave 1",
+				"distance": 582,
+				"isConnectable": true
+			},
+			{
+				"id": 17,
+				"name": "Loyang Ave 3",
+				"distance": 924,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 17,
+		"name": "Loyang Ave 3",
+		"type": "car",
+		"coordinates": [
+			"1.38633",
+			"103.979"
+		],
+		"childPoints": [
+			{
+				"id": 16,
+				"name": "Loyang Ave 2",
+				"distance": 924,
+				"isConnectable": true
+			},
+			{
+				"id": 18,
+				"name": "Loyang Ave 4",
+				"distance": 1080,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 18,
+		"name": "Loyang Ave 4",
+		"type": "car",
+		"coordinates": [
+			"1.38749",
+			"103.988"
+		],
+		"childPoints": [
+			{
+				"id": 17,
+				"name": "Loyang Ave 3",
+				"distance": 1080,
+				"isConnectable": true
+			},
+			{
+				"id": 19,
+				"name": "Nicoll Dr 1",
+				"distance": 348,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 19,
+		"name": "Nicoll Dr 1",
+		"type": "car",
+		"coordinates": [
+			"1.39059",
+			"103.991"
+		],
+		"childPoints": [
+			{
+				"id": 18,
+				"name": "Loyang Ave 4",
+				"distance": 348,
+				"isConnectable": true
+			},
+			{
+				"id": 20,
+				"name": "Nicoll Dr 2",
+				"distance": 841,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 20,
+		"name": "Nicoll Dr 2",
+		"type": "car",
+		"coordinates": [
+			"1.38886",
+			"103.998"
+		],
+		"childPoints": [
+			{
+				"id": 19,
+				"name": "Nicoll Dr 1",
+				"distance": 841,
+				"isConnectable": true
+			},
+			{
+				"id": 21,
+				"name": "Changi Coast Rd 6",
+				"distance": 825,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	},
+	{
+		"id": 21,
+		"name": "Changi Coast Rd 6",
+		"type": "car",
+		"coordinates": [
+			"1.37960",
+			"104.002"
+		],
+		"childPoints": [
+			{
+				"id": 20,
+				"name": "Nicoll Dr 2",
+				"distance": 996,
+				"isConnectable": true
+			},
+			{
+				"id": 1,
+				"name": "Changi Coast Rd 1",
+				"distance": 825,
+				"isConnectable": true
+			}
+		],
+		"distance": "Infinity"
+	}
+]

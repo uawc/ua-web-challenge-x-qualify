@@ -1,0 +1,32 @@
+ul {
+  list-style: none;
+  text-align: center;
+  margin: 7px 0 3px;
+
+  li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    background-size: contain;
+    border: 1px solid #c7c7c7;
+    border-radius: 25px;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    &.subway {
+      background-image: url('/img/metro.png');
+    }
+
+    &.car {
+      background-image: url('/img/car.png');
+    }
+
+    &.active {
+      background-color: #d2f7cf;
+    }
+  }
+}

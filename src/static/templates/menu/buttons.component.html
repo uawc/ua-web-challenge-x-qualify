@@ -1,0 +1,6 @@
+<ul>
+	<li *ngFor="let button of buttons" class="{{button.name}}"
+	    [class.active]="button === selectedButton"
+	    (click)="onClick(button)">{{button.text}}
+	</li>
+</ul>

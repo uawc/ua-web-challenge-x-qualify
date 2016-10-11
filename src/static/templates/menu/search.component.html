@@ -1,0 +1,16 @@
+<transport (selected)="onTransportChange($event)"></transport>
+
+<div class="search__select-wrapper search__start-point-wrapper">
+	<select [(ngModel)]="startPoint" id="search__start-point">
+		<option *ngFor="let point of points" [ngValue]="point.id">{{point.name}}</option>
+	</select>
+</div>
+
+<div class="search__select-wrapper search__end-point-wrapper">
+	<select [(ngModel)]="endPoint" id="search__end-point">
+		<option *ngFor="let point of points" [ngValue]="point.id">{{point.name}}</option>
+	</select>
+</div>
+
+<button class="search__submit" (click)="onSubmitClick()" type="button">Find</button>
+

@@ -1,0 +1,7 @@
+<ul>
+	<li *ngFor="let transport of transports" class="{{transport.name}}"
+	    [class.active]="transport === selectedTransport"
+	    (click)="onClick(transport)">
+	</li>
+</ul>
+

@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+ul, menu, dir, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.balloon-actions-wrapper {
+  width: 100%;
+  text-align: center;
+
+  .pick-as-start-point,
+  .pick-as-end-point {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 12px;
+    border-radius: 100%;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+
+  }
+
+  .pick-as-start-point {
+    background-color: #ff5858;
+  }
+
+  .pick-as-end-point {
+    background-color: #5099ff;
+  }
+}

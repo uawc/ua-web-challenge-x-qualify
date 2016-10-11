@@ -1,0 +1,33 @@
+ul {
+  position: absolute;
+  top: -50px;
+  left: 0;
+
+  li {
+    display: inline-block;
+    width: 146px;
+    padding: 10px 0;
+    margin-left: 4px;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #484848;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    &.active {
+      background-color: #d2f7cf;
+    }
+  }
+}
