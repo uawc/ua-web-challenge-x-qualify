@@ -5,7 +5,7 @@
 ```sh
 git clone https://github.com/uawc/ua-web-challenge-x-qualify.git
 cd ua-web-challenge-x-qualify
-npm install -g gulp-cli
+npm i -g gulp-cli
 npm i
 ```
 
