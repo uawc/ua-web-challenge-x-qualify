@@ -6,7 +6,7 @@
 git clone https://github.com/uawc/ua-web-challenge-x-qualify.git
 cd ua-web-challenge-x-qualify
 npm install -g gulp-cli
-npm install
+npm i
 ```
 
 Congratulations! Installation has been completed. Now you are able to launch this app
